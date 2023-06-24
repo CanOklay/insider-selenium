@@ -4,7 +4,7 @@
     <test name="ChromeTest">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="com.insider.test.Test"/>
+            <class name="com.insider.test.BaseTest"/>
         </classes>
     </test>
 </suite>
