@@ -18,11 +18,6 @@ public class BaseTest extends DriverFactory {
         setDriver(browser);
     }
 
-    @Test
-    public void test() {
-
-    }
-
     @AfterMethod(groups = {"hook"})
     public void after() {
         if (driver != null) {
