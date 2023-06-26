@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suiste SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Single Thread Test">
+    <listeners>
+        <listener class-name="com.insider.listener.Listener"/>
+    </listeners>
     <test name="ChromeTest">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="com.insider.test.BaseTest"/>
+            <class name="com.insider.test.JobsTest"/>
         </classes>
     </test>
 </suite>

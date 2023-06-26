@@ -32,7 +32,7 @@
         <extentreports.version>5.0.9</extentreports.version>
         <lombok.version>1.18.24</lombok.version>
         <logback.version>1.4.5</logback.version>
-        <testngXmlDir>src/test/java/com/insider/suites</testngXmlDir>
+        <testngXmlDir>src/test/java/com/insider/suite</testngXmlDir>
         <testngXmlFile>SingleTreadWithAllTests.xml</testngXmlFile>
     </properties>
 
