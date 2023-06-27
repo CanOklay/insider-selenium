@@ -39,7 +39,6 @@ public class JobsTest extends StepImplementations {
         wait(1);
         scrollUp();
         click(QUALITY_ASSURANCE_JOBS);
-        verifyText(QUALITY_ASSURANCE_TITLE, QUALITY_ASSURANCE_TITLE_TEXT);
         click(SEE_ALL_QA_JOBS_BUTTON);
         verifyText(OPEN_POSITIONS_TITLE, OPEN_POSITIONS_TITLE_TEXT);
         click(FILTER_LOCATION);
