@@ -5,7 +5,7 @@
         <listener class-name="com.insider.listener.Listener"/>
     </listeners>
     <test name="ChromeTest">
-        <parameter name="browser" value="chrome"/>
+        <parameter name="browser" value="grid-chrome"/>
         <classes>
             <class name="com.insider.test.JobsTest"/>
         </classes>
